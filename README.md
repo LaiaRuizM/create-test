@@ -25,7 +25,7 @@ Made with ❤️ by [Laia](https://github.com/LaiaRuizM)
 ## -- Getting Started 💪🏼☄️ --
 
 1. Clone the repo:
-   `git clone https://github.com/LaiaRuizM/create-test.git`
+   `git clone https://laiaruizm.github.io/create-test/`
 
 1. Install NPM packages:
    `npm install`
