@@ -18,25 +18,27 @@
         }
         &--2{
         @media(min-width: 1024px) {
-                padding-right: 10px;
+                padding: 20px 10px 0px 10px;
             }
             &--section{
                 &--title1{
-                    font-weight: 700px;
-                    font-size: 15px;
+                    font-weight: bold;
+                    font-size: 20px;
                     padding-bottom: 10px;
                     padding-top: 10px;
                 }
                 &--p1{
-                    padding-bottom: 10px;
+                    line-height: 25px;
+                    padding-bottom: 20px;
                     border-bottom: 2px solid black;
                 }
             }
             &--section2 {
                 border-bottom: 2px solid black;
                 &--title2 {
-                    font-weight: 700px;
-                    font-size: 15px;
+                    font-weight: bold;
+                    font-size: 20px;
+                    font-style: italic;
                     padding-bottom: 10px;
                     padding-top: 10px;
                 }
@@ -45,20 +47,27 @@
                     flex-direction: row;
                     align-items: flex-start;
                     padding-left: 20px;
+                    line-height: 25px;
+                    @media(min-width: 1024px) {
+                        padding-right: 25px;
+                    }
                     &--row{
                         width: 5px;
                         height: 15vh;
                         background-color: hsl(0, 2%, 68%);
                         @media(min-width: 1024px) {
                             width: 5px;
-                            height: 10vh;
+                            height: 12vh;
+                            margin-bottom: 20px;
+                            margin-right: 10px;
                         }
                     } 
                     &--p2 {
+                        line-height: 25px;
                         display: flex;
                         flex-direction: row;
                         width: 85%;
-                        padding-bottom: 10px;
+                        padding-bottom: 20px;
                         padding-left: 15px;
                     }
                 }
@@ -68,13 +77,14 @@
                     padding-bottom: 10px;
                 }
                 &--title3 {
-                    font-weight: 700px;
-                    font-size: 15px;
+                    font-weight: bold;
+                    font-size: 20px;
                     padding-bottom: 10px;
                     padding-top: 10px;
                 }
                 &--p3 {
-                    padding-bottom: 10px;
+                    line-height: 25px;
+                    padding-bottom: 20px;
                     border-bottom: 2px solid black;
                 }
             }
@@ -89,10 +99,11 @@
             background-color: rgb(79, 84, 79);
             padding: 20px 20px;
             gap: 10px;
+            border: 2px dashed $main-color;
         }
         &--box{
             @media(min-width: 1024px) {
-                background-color: rgb(86, 197, 177);
+                background-color: $main-color;
                 width: 180px;
                 height: 120px;
             }

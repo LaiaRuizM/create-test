@@ -5,8 +5,13 @@
     align-items: center;
     width: 100vw;
     height: 18vh;
-    background-color: rgb(86, 197, 177);
+    background-color: $main-color;
     font-size: 14px;
+    @media(min-width: 500px) {
+        margin-top: 270px;
+        flex-direction: row;
+        justify-content: space-around;;
+    }
     @media(min-width: 1024px){
         height: 10vh;
         display: flex;
@@ -18,7 +23,7 @@
     &__nav{
         width: 60vw;
         height: 6vh;
-        background-color: rgba(109, 106, 106, 0.6);
+        background-color: $color-box;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -58,7 +63,7 @@
             font-size: 12px;
             text-decoration: none;
             &--link{
-                color: rgba(109, 106, 106, 0.8);
+                color: $color-box;
                 padding-left: 10px;
             }
         }

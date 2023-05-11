@@ -9,7 +9,7 @@
 .section{
     width: 100vw;
     font-family: 'Indie Flower', cursive;
-    background-color: rgb(86, 197, 177);
+    background-color: $main-color;
     font-size: 14px;
     color: black;
     @media(min-width: 1024px) {
@@ -23,8 +23,8 @@
         flex-direction: row-reverse;
         justify-content: center;
         align-items: center;
-        gap: 10px;
-        padding: 10px;
+        gap: 40px;
+        padding: 30px;
         @media(min-width: 1024px) {
             display: flex;
             flex-direction: row-reverse;
@@ -35,7 +35,8 @@
             font-size: 18px;
         }
         &--image{
-            width: 30px;
+            width: 40px;
+            height: 40px;
         }
     }
     &__nav{
@@ -43,7 +44,7 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        background-color: rgba(109, 106, 106, 0.6);
+        background-color: $color-box;
         padding-right: 20px;
         height: 7vh;
         width: 100vw;
