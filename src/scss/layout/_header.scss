@@ -1,2 +1,68 @@
 .header {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section{
+    width: 100vw;
+    font-family: 'Indie Flower', cursive;
+    background-color: orange;
+    font-size: 14px;
+    color: black;
+    @media(min-width: 1024px) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &__div{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+        @media(min-width: 1024px) {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+        }
+        &--title{
+            font-size: 15px;
+            font-weight: 700px;
+        }
+        &--image{
+            width: 30px;
+        }
+    }
+    &__nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #b12b2b;
+        padding-right: 20px;
+        height: 7vh;
+        width: 100vw;
+        @media(min-width: 1024px) {
+            width: 50%;
+        }
+        &--link{
+            text-decoration: none;
+            font-family: 'Indie Flower', cursive;
+            color: white;
+            &:hover{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 80px;
+                background-color: aquamarine;
+                color: black;
+                height: 30px;
+            }
+        }
+    }
 }
