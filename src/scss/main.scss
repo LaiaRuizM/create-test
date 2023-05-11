@@ -1,12 +1,8 @@
-@import 'core/variables';
 @import 'core/reset';
-@import 'core/mixins';
-@import 'core/animations';
+@import 'core/variables';
 @import 'layout/header';
 @import 'layout/main';
 @import 'layout/footer';
-@import 'pages/index';
-
 
 .body {
     box-sizing: border-box;
