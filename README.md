@@ -15,7 +15,7 @@ This project showcases a responsive website developed using HTML and CSS, follow
 ## -- Organization: --
 
 <p align="center" style="margin-center:8%">
-<img src="./images/designNotes.png" alt="Diagram"/>
+<img src="./src/images/designNotes.png" alt="Diagram"/>
 </p>
 
 ## -- Made: --
